@@ -12,12 +12,13 @@ categories: projects
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Embodiment-Aware Skill Learning for Diverse Robots</title>
+<head>
+<title>Embodiment-Aware Skill Learning for Diverse Robots</title>
 
-  <meta property="og:title" content="Embodiment-Aware Skill Learning for Diverse Robots">
-  <meta property="og:description" content="Mingyo Seo, Embodiment-Aware Skill Learning for Diverse Robots, Ph.D. Dissertation, The University of Texas at Austin, 2026.">
-  <meta property="og:url" content="https://kiwi-sherbet.github.io/Dissertation">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:title" content="Embodiment-Aware Skill Learning for Diverse Robots">
+<meta property="og:description" content="Mingyo Seo, Embodiment-Aware Skill Learning for Diverse Robots, Ph.D. Dissertation, The University of Texas at Austin, 2026.">
+<meta property="og:url" content="https://kiwi-sherbet.github.io/Dissertation">
 
 <script src="./src/popup.js" type="text/javascript"></script>
 <script src="https://kit.fontawesome.com/ef67f68cfb.js" crossorigin="anonymous"></script>
@@ -74,88 +75,88 @@ $(document).ready(initStlViewer);
 // redefining default features
 var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';
 </script>
-  <style type="text/css" media="all">
-    body {
-        font-family: "Open Sans", sans-serif;
-        font-weight:300;
-        font-size:18px;
-        margin: auto;
-        width: 100%;
-      }
-    h1 { 
-        font-family: "Didact Gothic";
-        font-weight: bold;
-      }
-    h2 {
-        font-family: "Didact Gothic";
-        font-weight: bold;
-      }
-    h3 {
-        font-family: "Didact Gothic";
-        font-weight: bold;
-      }
-    detail {
-        font-family: "Didact Gothic";
-        font-size:14px;
-        color: #858585;
-      }
-    IMG {
-        PADDING-RIGHT: 0px;
-        PADDING-LEFT: 0px;
-        PADDING-BOTTOM: 0px;
-        PADDING-TOP: 0px;
-        display:block;
-        margin:auto;  
-      }
-    #primarycontent {
-        MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
-        1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
-        1000px 
-      }
-    BODY {
-        TEXT-ALIGN: center
-      }
-    hr{
-        border: 0;
-        height: 1px;
-        max-width: 1100px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-      }
-    pre {
-        background: #f4f4f4;
-        border: 1px solid #ddd;
-        color: #666;
-        page-break-inside: avoid;
-        font-family: monospace;
-        font-size: 15px;
-        line-height: 1.6;
-        margin-bottom: 1.6em;
-        max-width: 100%;
-        overflow: auto;
-        padding: 10px;
-        display: block;
-        word-wrap: break-word;
-      }
-    table {
-        width:800
-      }
-    a {
-      color: #800080;
-      text-decoration: none;
-      font-weight: 500;
+<style type="text/css" media="all">
+  body {
+      font-family: "Open Sans", sans-serif;
+      font-weight:300;
+      font-size:18px;
+      margin: auto;
+      width: 100%;
     }
-    highlight {
-      color: #800080;
-      text-decoration: none;
-      font-weight: 500;
+  h1 { 
+      font-family: "Didact Gothic";
+      font-weight: bold;
     }
-    .page-width-background {
-        position: absolute;
-        left: 0;
-        width: 100%;
-        background-color: #e8eaf6;
-      }
-  </style>
+  h2 {
+      font-family: "Didact Gothic";
+      font-weight: bold;
+    }
+  h3 {
+      font-family: "Didact Gothic";
+      font-weight: bold;
+    }
+  detail {
+      font-family: "Didact Gothic";
+      font-size:14px;
+      color: #858585;
+    }
+  IMG {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      PADDING-BOTTOM: 0px;
+      PADDING-TOP: 0px;
+      display:block;
+      margin:auto;  
+    }
+  #primarycontent {
+      MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
+      1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+      1000px 
+    }
+  BODY {
+      TEXT-ALIGN: center
+    }
+  hr{
+      border: 0;
+      height: 1px;
+      max-width: 1100px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+  pre {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      color: #666;
+      page-break-inside: avoid;
+      font-family: monospace;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 1.6em;
+      max-width: 100%;
+      overflow: auto;
+      padding: 10px;
+      display: block;
+      word-wrap: break-word;
+    }
+  table {
+      width:800
+    }
+  a {
+    color: #800080;
+    text-decoration: none;
+    font-weight: 500;
+    }
+  highlight {
+    color: #800080;
+    text-decoration: none;
+    font-weight: 500;
+    }
+  .page-width-background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #e8eaf6;
+    }
+</style>
 </head>
 
 <body data-gr-c-s-loaded="true">
@@ -220,7 +221,9 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
@@ -254,7 +257,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/hardware.png"> 
         <img src="./src/figure/hardware.png" style="width:600;">
       </a>
-      <br>
     </td>
   </tr> 
   <tr>
@@ -281,7 +283,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/control.png"> 
         <img src="./src/figure/control.png" style="width:600;">
       </a>
-      <br>
     </td>
   </tr> 
   <tr>
@@ -308,7 +309,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/representation.png"> 
         <img src="./src/figure/representation.png" style="width:600;">
       </a>
-      <br>
     </td>
   </tr>   
   <tr>
@@ -336,7 +336,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/futurework.png"> 
         <img src="./src/figure/futurework.png" style="width:400;">
       </a>
-      <br>
     </td>
   </tr>
   <tr>
@@ -363,4 +362,4 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 <div style="height: 16px;"></div>
 </div>
 
-</div>
+</body>
