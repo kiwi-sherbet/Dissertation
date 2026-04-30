@@ -78,7 +78,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 </script>
 <style type="text/css" media="all">
   body {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight:300;
       font-size:18px;
       margin: auto;
@@ -175,7 +175,16 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
+<hr>
+<div style="height: 20px;"></div>
+
 <table align=center width=800px>
+  <tr>
+    <td>
+      <h2 id="defense" align=center>Defense Recording</h2>
+    </td>
+  </tr>
   <tr>
     <td align=center valign=middle>
       <video muted controls autoplay loop width="598">
@@ -185,7 +194,16 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
+<hr>
+<div style="height: 20px;"></div>
+
 <table align=center width=800px>
+  <tr>
+    <td>
+      <h2 id="abstract" align=center>Abstract</h2>
+    </td>
+  </tr>
   <tr>
     <td>
       <p align="justify" width="20%">
@@ -305,8 +323,10 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
+
 <div class="page-width-background">
-<div style="height: 4px;"></div>
+<div style="height: 20px;"></div>
 <table align=center width=800px>
   <tr>
     <td>
