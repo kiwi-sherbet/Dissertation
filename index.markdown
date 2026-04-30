@@ -258,6 +258,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/hardware.png"> 
         <img src="./src/figure/hardware.png" style="width:600;">
       </a>
+      <br>
     </td>
   </tr> 
   <tr>
@@ -276,7 +277,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="part2">Part II: Bridging Control Architectures and Skill Learning</h2>
+      <h2 id="part2" align=center>Part II: Bridging Control Architectures and Skill Learning</h2>
     </td>
   </tr>
   <tr>
@@ -284,6 +285,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/control.png"> 
         <img src="./src/figure/control.png" style="width:600;">
       </a>
+      <br>
     </td>
   </tr> 
   <tr>
@@ -310,6 +312,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/representation.png"> 
         <img src="./src/figure/representation.png" style="width:600;">
       </a>
+      <br>
     </td>
   </tr>   
   <tr>
@@ -337,24 +340,32 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <a href="./src/figure/futurework.png"> 
         <img src="./src/figure/futurework.png" style="width:400;">
       </a>
+      <br>
     </td>
   </tr>
   <tr>
     <td>
       <p align="justify" width="20%">
-        Looking ahead, achieving generalist robot autonomy requires robots to accumulate knowledge across different embodiments, transfer that knowledge to new systems, and compose it into behaviors that generalize across tasks and platforms. A central question is how skills can be reused and composed when both task structure and robot embodiment vary. Rather than treating skill composition as purely an algorithmic problem, it should be viewed as fundamentally constrained by embodiment. The structure of the robot, its sensing and actuation capabilities, and the abstractions used to represent actions shape which behaviors can be learned, transferred, and composed. To move toward this goal, future research will study richer forms of skill composition by building on and extending the structural priors explored in this dissertation. In particular, it will investigate how control abstractions, hardware design, and representations jointly determine which skill compositions are feasible and reusable across robots. Grounded in the integration of robot-specific structural priors for developing generalizable skills, this research aims to advance the next generation of generalist robot autonomy.
+        Achieving generalist robot autonomy requires robots to accumulate knowledge across different embodiments, transfer that knowledge to new systems, and compose it into behaviors that generalize across tasks and platforms. A central question is how skills can be reused and composed when both task structure and robot embodiment vary. Rather than treating skill composition as purely an algorithmic problem, it should be viewed as fundamentally constrained by embodiment. The structure of the robot, its sensing and actuation capabilities, and the abstractions used to represent actions shape which behaviors can be learned, transferred, and composed. To move toward this goal, future research will study richer forms of skill composition by building on and extending the structural priors explored in this dissertation. In particular, it will investigate how control abstractions, hardware design, and representations jointly determine which skill compositions are feasible and reusable across robots. Grounded in the integration of robot-specific structural priors for developing generalizable skills, this research aims to advance the next generation of generalist robot autonomy.
       </p>
     </td>
   </tr>
 </table>
+
+<div style="height: 20px;"></div>
 
 <div class="page-width-background">
 <div style="height: 4px;"></div>
 <h2 align="center">Contact</h2>
 <table align=center width=800px>
   <tr>
+    <td>
+      <h2 align="center">Contact</h2>
+    </td>
+  </tr>
+  <tr>
     <td> 
-      <p align="justify" width="20%">
+      <p align=center width="20%">
         For questions, please contact <a href="https://mingyoseo.com/">Mingyo Seo</a>.
       </p>
     </td>
