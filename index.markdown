@@ -161,7 +161,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 </head>
 
 <body data-gr-c-s-loaded="true">
-<div style="height: 4px;"></div>
+<div style="height: 16px;"></div>
 
 <table align=center width=800px>
   <tr>
