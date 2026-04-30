@@ -160,6 +160,9 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 
 <body data-gr-c-s-loaded="true">
 
+<table align=center width=800px>
+  <tr>
+    <td>
 <div id="primarycontent">
 <div style="height: 4px;"></div>
 <center>
@@ -195,6 +198,9 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
     Future Work
   </a>
 </center>
+    </td>
+  </tr>
+</table>
 
 <div style="height: 20px;"></div>
 <hr>
@@ -211,7 +217,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       <video muted controls autoplay loop width="598">
         <source src="./src/video/defense.mov"  type="video/mov">
       </video>
-      <br>
     </td>
   </tr>
 </table>
