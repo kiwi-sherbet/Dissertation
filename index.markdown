@@ -1,4 +1,4 @@
----
+--
 layout: common
 permalink: /
 categories: projects
@@ -16,8 +16,8 @@ categories: projects
   <title>Embodiment-Aware Skill Learning for Diverse Robots</title>
 
   <meta property="og:title" content="Embodiment-Aware Skill Learning for Diverse Robots">
-  <meta property="og:description" content="Mingyo Seo, Embodiment-Aware Skill Learning for Diverse Robots, Ph.D. Dissertation, The University of Texas at Austin, 2026">
-  <meta property="og:url" content="https://kiwi-sherbet.github.io/dissertation">
+  <meta property="og:description" content="Mingyo Seo, Embodiment-Aware Skill Learning for Diverse Robots, Ph.D. Dissertation, The University of Texas at Austin, 2026.">
+  <meta property="og:url" content="https://kiwi-sherbet.github.io/Dissertation">
 
 <script src="./src/popup.js" type="text/javascript"></script>
 <script src="https://kit.fontawesome.com/ef67f68cfb.js" crossorigin="anonymous"></script>
@@ -140,15 +140,21 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
         width:800
       }
     a {
-      color: #186814;
+      color: #800080;
       text-decoration: none;
       font-weight: 500;
     }
     highlight {
-      color: #186814;
+      color: #800080;
       text-decoration: none;
       font-weight: 500;
     }
+    .page-width-background {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #e8eaf6;
+      }
   </style>
 </head>
 
@@ -156,58 +162,43 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 
 <div id="primarycontent">
 <div style="height: 4px;"></div>
-<table align=center width=800px>
-  <tr>
-    <td>
-      <p align="justify" width="20%">
-        <h1 align="left">
-          <strong>Embodiment-Aware Skill Learning for Diverse Robots</strong>
-        </h1>
-        <h3> <a href="https://mingyoseo.com"><b>Mingyo Seo</b></a></h3>
-        <h3>Ph.D. Dissertation, The University of Texas at Austin</h3>
-      </p>
-    </td>
-  </tr>
-</table>
+<center>
+  <h1>
+    <strong>Embodiment-Aware Skill Learning for Diverse Robots</strong>
+  </h1>
+  <h3> <a href="https://mingyoseo.com"><b>Mingyo Seo</b></a></h3>
+  <h3>Ph.D. Dissertation, The University of Texas at Austin</h3>
+
+  <div style="height: 20px;"></div>
+
+  <a href="#defense" style="color:#484824;">
+    Defense
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#abstract" style="color:#484824;">
+    Abstract
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#part1" style="color:#484824;">
+    Part I
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#part2" style="color:#484824;">
+    Part II
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#part3" style="color:#484824;">
+    Part III
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#futurework" style="color:#484824;">
+    Future Work
+  </a>
+</center>
 
 <div style="height: 20px;"></div>
-
-<table align=center width=800px>
-  <tr>
-    <td>
-      <!-- <a href="#submission" style="color:#484824;">
-        Paper Submission
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp; -->
-      <a href="#defense" style="color:#484824;">
-        Defense
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#abstract" style="color:#484824;">
-        Abstract
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#part1" style="color:#484824;">
-        Part I
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#part2" style="color:#484824;">
-        Part II
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#part3" style="color:#484824;">
-        Part III
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#futurework" style="color:#484824;">
-        Future Work
-      </a>
-    </td>
-  </tr>
-</table>
-<div style="height: 20px;"></div>
-
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
@@ -218,7 +209,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td align=center valign=middle>
       <video muted controls autoplay loop width="598">
-        <source src="./src/video/defense.mp4"  type="video/mp4">
+        <source src="./src/video/defense.mov"  type="video/mov">
       </video>
       <br>
     </td>
@@ -230,7 +221,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="abstract">Abstract</h2>
+      <h2 id="abstract" align=center>Abstract</h2>
     </td>
   </tr>
   <tr>
@@ -244,18 +235,20 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="part1">Part I: Designing Robot Hardware for Consistent Physical Interaction</h2>
+      <h2 id="part1" align=center>Part I: Designing Robot Hardware for Consistent Physical Interaction</h2>
     </td>
   </tr>
   <tr>
     <td align=center valign=middle>
       <a href="./src/figure/hardware.png"> 
-        <img src="./src/figure/hardware.png" style="width:800;">
+        <img src="./src/figure/hardware.png" style="width:600;">
       </a>
       <br>
     </td>
@@ -263,13 +256,15 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td>
       <p align="justify" width="20%">
-        A core challenge in robot autonomy is that each platform operates within its own domain, making skills hardware-specific and difficult to transfer. While most hardware components are fixed, interaction with the environment occurs primarily through end-effectors, making them a natural locus for co-design with sensorimotor abstractions. In Part I, we develop a series of end-effector grippers [<a href="https://ut-hcrl.github.io/LEGATO">LEGATO <i class="fa-solid fa-link"></i></a>, <a href="https://merge-lab.github.io/FORTE">FORTE <i class="fa-solid fa-link"></i></a>] that unify how robots grasp, sense, and manipulate objects. These grippers standardize visual and tactile perception as well as contact interactions across morphologies, allowing abstraction layers to interpret tactile and force feedback consistently. Serving as a shared interface for skill learning, they establish a unified action-observation space that supports cross-embodiment transfer, skill reuse, and scalable data collection. These works illustrate that hardware is not merely a constraint but an active component of robot learning.
+        A core challenge in robot autonomy is that each platform operates within its own domain, making skills hardware-specific and difficult to transfer. While most hardware components are fixed, interaction with the environment occurs primarily through end-effectors, making them a natural locus for co-design with sensorimotor abstractions. In Part I, we develop a series of end-effector grippers [<a href="https://ut-hcrl.github.io/LEGATO"><i class="fa-solid fa-link"></i>LEGATO</a>, <a href="https://merge-lab.github.io/FORTE"><i class="fa-solid fa-link"></i>FORTE</a>] that unify how robots grasp, sense, and manipulate objects. These grippers standardize visual and tactile perception as well as contact interactions across morphologies, allowing abstraction layers to interpret tactile and force feedback consistently. Serving as a shared interface for skill learning, they establish a unified action-observation space that supports cross-embodiment transfer, skill reuse, and scalable data collection. These works illustrate that hardware is not merely a constraint but an active component of robot learning.
       </p>
     </td>
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
@@ -280,7 +275,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td align=center valign=middle>
       <a href="./src/figure/control.png"> 
-        <img src="./src/figure/control.png" style="width:800;">
+        <img src="./src/figure/control.png" style="width:600;">
       </a>
       <br>
     </td>
@@ -288,24 +283,26 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td>
       <p align="justify" width="20%">
-        High-degree-of-freedom robots such as humanoids and legged systems offer rich capabilities but are difficult to control due to high-dimensional state-action spaces and complex dynamics. These challenges make skill learning inefficient, as even simple tasks can require large datasets. Introducing abstractions through intermediate controllers can reduce this complexity while preserving expressive robot motion and control. In Part II, we develop hybrid learning frameworks [<a href="https://ut-austin-rpl.github.io/TRILL">TRILL <i class="fa-solid fa-link"></i></a>, <a href="https://ut-austin-rpl.github.io/PRELUDE">PRELUDE <i class="fa-solid fa-link"></i></a>] that manage complex whole-body dynamics within lower-dimensional action spaces by optimizing control outputs under dynamic constraints. These control-driven abstractions simplify demonstrations, improve data efficiency, and enable scalable skill learning on robot systems whose dynamics would otherwise be difficult to learn directly. These works demonstrate how combining model-based and learning-based control architectures enables scalable skill learning by allowing each component to be developed in the domain where it is most effective.
+        High-degree-of-freedom robots such as humanoids and legged systems offer rich capabilities but are difficult to control due to high-dimensional state-action spaces and complex dynamics. These challenges make skill learning inefficient, as even simple tasks can require large datasets. Introducing abstractions through intermediate controllers can reduce this complexity while preserving expressive robot motion and control. In Part II, we develop hybrid learning frameworks [<a href="https://ut-austin-rpl.github.io/TRILL"><i class="fa-solid fa-link"></i>TRILL</a>, <a href="https://ut-austin-rpl.github.io/PRELUDE"><i class="fa-solid fa-link"></i>PRELUDE</a>] that manage complex whole-body dynamics within lower-dimensional action spaces by optimizing control outputs under dynamic constraints. These control-driven abstractions simplify demonstrations, improve data efficiency, and enable scalable skill learning on robot systems whose dynamics would otherwise be difficult to learn directly. These works demonstrate how combining model-based and learning-based control architectures enables scalable skill learning by allowing each component to be developed in the domain where it is most effective.
       </p>
     </td>
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="part3">Part III: Learning Embodiment-Aware Representations for Skill Transfer</h2>
+      <h2 id="part3" align=center>Part III: Learning Embodiment-Aware Representations for Skill Transfer</h2>
     </td>
   </tr>
   <tr>
-    <td align="center" valign=middle>
+    <td align=center valign=middle>
       <a href="./src/figure/representation.png"> 
-        <img src="./src/figure/representation.png" style="width:800;">
+        <img src="./src/figure/representation.png" style="width:600;">
       </a>
       <br>
     </td>
@@ -314,24 +311,26 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
     <td>
       <p align="justify" width="20%">
         Achieving scalable robot autonomy requires skills that transfer across diverse robot embodiments while adapting to each platform’s physical constraints. While shared hardware interfaces and control abstractions enable transferable interactions, successful deployment still requires adapting learned behaviors to differences in morphology and kinematics. In Part III, we develop embodiment-aware representations that capture both task intent and embodiment-specific feasibility, enabling skills learned from demonstrations to transfer across robots. 
-        Object-centric representations can extract task intent from demonstrations by capturing what should be accomplished in the scene, independent of the robot embodiment [<a href="https://ut-austin-rpl.github.io/OKAMI">OKAMI <i class="fa-solid fa-link"></i></a>]. However, executing this intent on a new robot requires accounting for embodiment-specific feasibility, including morphology, kinematics, self-collision constraints, and joint limits. To address this, Chapter~\ref{ch:07_presto} develops C-space-based embodiment-aware representations that support feasible trajectory generation on the target robot [<a href="https://kiwi-sherbet.github.io/PRESTO">PRESTO <i class="fa-solid fa-link"></i></a>]. These works demonstrate how embodiment-aware representations enable flexible skill transfer across robots by separating task intent from embodiment-specific motion generation while fully leveraging each robot’s capabilities.
+        Object-centric representations can extract task intent from demonstrations by capturing what should be accomplished in the scene, independent of the robot embodiment [<a href="https://ut-austin-rpl.github.io/OKAMI"><i class="fa-solid fa-link"></i>OKAMI</a>]. However, executing this intent on a new robot requires accounting for embodiment-specific feasibility, including morphology, kinematics, self-collision constraints, and joint limits. To address this, Chapter~\ref{ch:07_presto} develops C-space-based embodiment-aware representations that support feasible trajectory generation on the target robot [<a href="https://kiwi-sherbet.github.io/PRESTO"><i class="fa-solid fa-link"></i>PRESTO</a>]. These works demonstrate how embodiment-aware representations enable flexible skill transfer across robots by separating task intent from embodiment-specific motion generation while fully leveraging each robot’s capabilities.
       </p>
     </td>
   </tr>
 </table>
 
+<div style="height: 20px;"></div>
 <hr>
+<div style="height: 20px;"></div>
 
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="futurework">Future Work</h2>
+      <h2 id="futurework" align=center>Future Work</h2>
     </td>
   </tr>
   <tr>
     <td align=center valign=middle>
       <a href="./src/figure/futurework.png"> 
-        <img src="./src/figure/futurework.png" style="width:500;">
+        <img src="./src/figure/futurework.png" style="width:400;">
       </a>
       <br>
     </td>
@@ -347,7 +346,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 
 <div class="page-width-background">
 <div style="height: 4px;"></div>
-<h2 align="center">License</h2>
+<h2 align="center">Contact</h2>
 <table align=center width=800px>
   <tr>
     <td> 
