@@ -166,39 +166,11 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 <table align=center width=800px>
   <tr>
     <td>
-<center>
-  <h1>
-    <strong>Embodiment-Aware Skill Learning for Diverse Robots</strong>
-  </h1>
-  <h3> <a href="https://mingyoseo.com"><b>Mingyo Seo</b></a></h3>
-  <h3>Ph.D. Dissertation, The University of Texas at Austin</h3>
-
-  <div style="height: 20px;"></div>
-
-  <a href="#defense" style="color:#484824;">
-    Defense
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#abstract" style="color:#484824;">
-    Abstract
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#part1" style="color:#484824;">
-    Part I
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#part2" style="color:#484824;">
-    Part II
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#part3" style="color:#484824;">
-    Part III
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#futurework" style="color:#484824;">
-    Future Work
-  </a>
-</center>
+      <h1 align=center>
+        <strong>Embodiment-Aware Skill Learning for Diverse Robots</strong>
+      </h1>
+      <h3 align=center> <a href="https://mingyoseo.com"><b>Mingyo Seo</b></a></h3>
+      <h3 align=center>Ph.D. Dissertation, The University of Texas at Austin</h3>
     </td>
   </tr>
 </table>
@@ -264,7 +236,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td>
       <p align="justify" width="20%">
-        A core challenge in robot autonomy is that each platform operates within its own domain, making skills hardware-specific and difficult to transfer. While most hardware components are fixed, interaction with the environment occurs primarily through end-effectors, making them a natural locus for co-design with sensorimotor abstractions. In Part I, we develop a series of end-effector grippers [<a href="https://ut-hcrl.github.io/LEGATO"><i class="fa-solid fa-link"></i>LEGATO</a>, <a href="https://merge-lab.github.io/FORTE"><i class="fa-solid fa-link"></i>FORTE</a>] that unify how robots grasp, sense, and manipulate objects. These grippers standardize visual and tactile perception as well as contact interactions across morphologies, allowing abstraction layers to interpret tactile and force feedback consistently. Serving as a shared interface for skill learning, they establish a unified action-observation space that supports cross-embodiment transfer, skill reuse, and scalable data collection. These works illustrate that hardware is not merely a constraint but an active component of robot learning.
+        A core challenge in robot autonomy is that each platform operates within its own domain, making skills hardware-specific and difficult to transfer. While most hardware components are fixed, interaction with the environment occurs primarily through end-effectors, making them a natural locus for co-design with sensorimotor abstractions. In Part I, we develop a series of end-effector grippers [<a href="https://ut-hcrl.github.io/LEGATO"><b><i class="fa-solid fa-link"></i>LEGATO</b></a>, <a href="https://merge-lab.github.io/FORTE"><b><i class="fa-solid fa-link"></i>FORTE</b></a>] that unify how robots grasp, sense, and manipulate objects. These grippers standardize visual and tactile perception as well as contact interactions across morphologies, allowing abstraction layers to interpret tactile and force feedback consistently. Serving as a shared interface for skill learning, they establish a unified action-observation space that supports cross-embodiment transfer, skill reuse, and scalable data collection. These works illustrate that hardware is not merely a constraint but an active component of robot learning.
       </p>
     </td>
   </tr>
@@ -291,7 +263,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   <tr>
     <td>
       <p align="justify" width="20%">
-        High-degree-of-freedom robots such as humanoids and legged systems offer rich capabilities but are difficult to control due to high-dimensional state-action spaces and complex dynamics. These challenges make skill learning inefficient, as even simple tasks can require large datasets. Introducing abstractions through intermediate controllers can reduce this complexity while preserving expressive robot motion and control. In Part II, we develop hybrid learning frameworks [<a href="https://ut-austin-rpl.github.io/TRILL"><i class="fa-solid fa-link"></i>TRILL</a>, <a href="https://ut-austin-rpl.github.io/PRELUDE"><i class="fa-solid fa-link"></i>PRELUDE</a>] that manage complex whole-body dynamics within lower-dimensional action spaces by optimizing control outputs under dynamic constraints. These control-driven abstractions simplify demonstrations, improve data efficiency, and enable scalable skill learning on robot systems whose dynamics would otherwise be difficult to learn directly. These works demonstrate how combining model-based and learning-based control architectures enables scalable skill learning by allowing each component to be developed in the domain where it is most effective.
+        High-degree-of-freedom robots such as humanoids and legged systems offer rich capabilities but are difficult to control due to high-dimensional state-action spaces and complex dynamics. These challenges make skill learning inefficient, as even simple tasks can require large datasets. Introducing abstractions through intermediate controllers can reduce this complexity while preserving expressive robot motion and control. In Part II, we develop hybrid learning frameworks [<a href="https://ut-austin-rpl.github.io/TRILL"><b><i class="fa-solid fa-link"></i>TRILL</b></a>, <a href="https://ut-austin-rpl.github.io/PRELUDE"><b><i class="fa-solid fa-link"></i>PRELUDE</b></a>] that manage complex whole-body dynamics within lower-dimensional action spaces by optimizing control outputs under dynamic constraints. These control-driven abstractions simplify demonstrations, improve data efficiency, and enable scalable skill learning on robot systems whose dynamics would otherwise be difficult to learn directly. These works demonstrate how combining model-based and learning-based control architectures enables scalable skill learning by allowing each component to be developed in the domain where it is most effective.
       </p>
     </td>
   </tr>
@@ -319,7 +291,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
     <td>
       <p align="justify" width="20%">
         Achieving scalable robot autonomy requires skills that transfer across diverse robot embodiments while adapting to each platform’s physical constraints. While shared hardware interfaces and control abstractions enable transferable interactions, successful deployment still requires adapting learned behaviors to differences in morphology and kinematics. In Part III, we develop embodiment-aware representations that capture both task intent and embodiment-specific feasibility, enabling skills learned from demonstrations to transfer across robots. 
-        Object-centric representations can extract task intent from demonstrations by capturing what should be accomplished in the scene, independent of the robot embodiment [<a href="https://ut-austin-rpl.github.io/OKAMI"><i class="fa-solid fa-link"></i>OKAMI</a>]. However, executing this intent on a new robot requires accounting for embodiment-specific feasibility, including morphology, kinematics, self-collision constraints, and joint limits. To address this, Chapter~\ref{ch:07_presto} develops C-space-based embodiment-aware representations that support feasible trajectory generation on the target robot [<a href="https://kiwi-sherbet.github.io/PRESTO"><i class="fa-solid fa-link"></i>PRESTO</a>]. These works demonstrate how embodiment-aware representations enable flexible skill transfer across robots by separating task intent from embodiment-specific motion generation while fully leveraging each robot’s capabilities.
+        Object-centric representations can extract task intent from demonstrations by capturing what should be accomplished in the scene, independent of the robot embodiment [<a href="https://ut-austin-rpl.github.io/OKAMI"><b><i class="fa-solid fa-link"></i>OKAMI</b></a>]. However, executing this intent on a new robot requires accounting for embodiment-specific feasibility, including morphology, kinematics, self-collision constraints, and joint limits. To address this, Chapter~\ref{ch:07_presto} develops C-space-based embodiment-aware representations that support feasible trajectory generation on the target robot [<a href="https://kiwi-sherbet.github.io/PRESTO"><b><i class="fa-solid fa-link"></i>PRESTO</b></a>]. These works demonstrate how embodiment-aware representations enable flexible skill transfer across robots by separating task intent from embodiment-specific motion generation while fully leveraging each robot’s capabilities.
       </p>
     </td>
   </tr>
@@ -356,7 +328,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 
 <div class="page-width-background">
 <div style="height: 4px;"></div>
-<h2 align="center">Contact</h2>
 <table align=center width=800px>
   <tr>
     <td>
