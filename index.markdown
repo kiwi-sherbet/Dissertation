@@ -175,16 +175,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
-<div style="height: 20px;"></div>
-<hr>
-<div style="height: 20px;"></div>
-
 <table align=center width=800px>
-  <tr>
-    <td>
-      <h2 id="defense" align=center>Defense Recording</h2>
-    </td>
-  </tr>
   <tr>
     <td align=center valign=middle>
       <video muted controls autoplay loop width="598">
@@ -194,22 +185,12 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
   </tr>
 </table>
 
-<div style="height: 20px;"></div>
-<hr>
-<div style="height: 20px;"></div>
-
 <table align=center width=800px>
-  <tr>
-    <td>
-      <h2 id="abstract" align=center>Abstract</h2>
-    </td>
-  </tr>
   <tr>
     <td>
       <p align="justify" width="20%">
       Robotic systems are rapidly diversifying in both form and application, spanning humanoids, mobile manipulators, and industrial platforms. Achieving generalist robot autonomy therefore requires skills that can be shared across robots while accounting for embodiment-specific constraints. Recent efforts have pursued this goal by scaling data across multiple platforms, learning structural differences and invariances from large datasets. However, robots, as engineered systems, exhibit behavior shaped by design choices in hardware, control, and representation. Rather than relying on learning algorithms to infer this structure from data alone, we develop embodiment-aware skill learning, which explicitly incorporates these system-level factors as structural priors to guide learning toward physically feasible and transferable behaviors.<br><br>
-      This dissertation presents a holistic approach that combines hardware interfaces, control abstractions, and embodiment-aware representations. It begins with hardware design that enables consistent physical interaction and sensing across diverse robots. It then introduces control abstractions that structure learning within compact state-action spaces for high-degree-of-freedom systems. Finally, it develops representations that separate shared, object-centric task intent from embodiment-specific geometric constraints, enabling efficient skill transfer while maintaining feasibility and performance across different robot morphologies.<br><br>
-      Our findings show that incorporating structural priors complements and strengthens skill learning, enabling robots to accumulate and transfer skills across embodiments while maintaining physical feasibility. This accelerates progress toward generalist robot autonomy, supporting scalable skill acquisition and reliable performance across a broad spectrum of rapidly evolving robot platforms.
+      This dissertation presents a holistic approach that combines hardware interfaces, control abstractions, and embodiment-aware representations. Our findings show that incorporating structural priors complements and strengthens skill learning, enabling robots to accumulate and transfer skills across embodiments while maintaining physical feasibility. This accelerates progress toward generalist robot autonomy, supporting scalable skill acquisition and reliable performance across a broad spectrum of rapidly evolving robot platforms.
       </p>
     </td>
   </tr>
@@ -323,8 +304,6 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
     </td>
   </tr>
 </table>
-
-<div style="height: 20px;"></div>
 
 <div class="page-width-background">
 <div style="height: 4px;"></div>
