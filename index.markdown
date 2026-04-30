@@ -1,8 +1,8 @@
---
+---
 layout: common
 permalink: /
 categories: projects
---
+---
 
 <link media="all" href="./css/glab.css" type="text/css" rel="StyleSheet">
 
@@ -11,6 +11,7 @@ categories: projects
 <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 
 <head>
 <title>Embodiment-Aware Skill Learning for Diverse Robots</title>
