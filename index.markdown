@@ -159,12 +159,11 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 </head>
 
 <body data-gr-c-s-loaded="true">
+<div style="height: 4px;"></div>
 
 <table align=center width=800px>
   <tr>
     <td>
-<div id="primarycontent">
-<div style="height: 4px;"></div>
 <center>
   <h1>
     <strong>Embodiment-Aware Skill Learning for Diverse Robots</strong>
@@ -209,7 +208,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 <table align=center width=800px>
   <tr>
     <td>
-      <h2 id="defense">Defense Recording</h2>
+      <h2 id="defense" align=center>Defense Recording</h2>
     </td>
   </tr>
   <tr>
