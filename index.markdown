@@ -76,23 +76,21 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
 </script>
   <style type="text/css" media="all">
     body {
-        font-family: "Open Sans", sans-serif;
+        font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight:300;
         font-size:18px;
         margin: auto;
         width: 100%;
       }
     h1 { 
-        font-family: "Didact Gothic";
-        font-weight: bold;
+        font-weight:300;
       }
     h2 {
-        font-family: "Didact Gothic";
-        font-weight: bold;
+        font-weight:300;
+        font-size:24px;
       }
     h3 {
-        font-family: "Didact Gothic";
-        font-weight: bold;
+        font-weight:300;
       }
     detail {
         font-family: "Didact Gothic";
