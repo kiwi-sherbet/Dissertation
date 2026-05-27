@@ -125,12 +125,12 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       width:800
     }
   a {
-    color: #800080;
+    color: #483C94;
     text-decoration: none;
     font-weight: 500;
     }
   highlight {
-    color: #800080;
+    color: #483C94;
     text-decoration: none;
     font-weight: 500;
     }
@@ -138,7 +138,7 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: #e8eaf6;
+    background-color: #f1f0f7;
     }
 </style>
 </head>
