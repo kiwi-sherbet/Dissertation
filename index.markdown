@@ -156,7 +156,8 @@ var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,
       Ph.D. Dissertation, The University of Texas at Austin</h3>
       <h3 align=center> Supervisors: <a href="https://yukezhu.me">Yuke Zhu</a>, <a href="https://www.ae.utexas.edu/people/faculty/faculty-directory/sentis">Luis Sentis</a></h3>
       <h3 align=center>
-        <a href="./src/file/mseo_dissertation.pdf" download>
+        <!-- <a href="./src/file/mseo_dissertation.pdf" download> -->
+        <a href="https://repositories.lib.utexas.edu/items/7d8b4686-9950-4a27-8914-5e318c19131b">
           <i class="fa-solid fa-book"></i> Dissertation</a> |
         <a href="./src/file/mseo_defense.pdf">
           <i class="fa-solid fa-person-chalkboard"></i> Defense Slides</a>
